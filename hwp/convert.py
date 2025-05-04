@@ -1,4 +1,4 @@
-from .app import HApp, HService, HServiceBuilder, ServiceLogger
+from .app import HService, HServiceBuilder, ServiceLogger
 
 
 class ConvertToPdfServiceBuilder(HServiceBuilder):

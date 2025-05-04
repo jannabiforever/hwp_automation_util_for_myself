@@ -59,4 +59,4 @@ class HServiceBuilder(ABC):
         """
         Build a service object.
         """
-        pass
+        raise NotImplementedError("build method must be implemented")

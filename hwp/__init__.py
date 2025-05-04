@@ -1,8 +1,8 @@
 from .app import HApp
-from .convert import ConvertToPdfService, ConvertToPdfServiceBuilder
+from .convert import ConvertToPdfServiceBuilder, ConvertToHwpxServiceBuilder
 
 __all__ = [
     "HApp",
-    "ConvertToPdfService",
     "ConvertToPdfServiceBuilder",
+    "ConvertToHwpxServiceBuilder",
 ]
